@@ -47,3 +47,29 @@ The following hand-drawn wiring diagram illustrates the complete hardware interc
 > Note: The diagram was manually created during the hardware development phase and documents the actual connections used in the prototype.
 
 Future updates will include a complete Arduino project structure with improved documentation and circuit diagrams.
+
+# Voice-Controlled Iron Man Inspired Exoskeleton Arm
+
+## Overview
+
+## Key Features
+
+## Hardware Used
+
+## Working Principle
+
+## Voice Commands Implemented
+
+## Project Images
+
+## Demonstration Video
+
+## Hardware Wiring Diagram
+
+## Source Code
+
+## Challenges Faced
+
+## Future Improvements
+
+## Repository Structure
