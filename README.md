@@ -36,3 +36,7 @@ The embedded software for this project is provided in text format.
 The code can be directly copied into the Arduino IDE, saved as an `.ino` sketch, and modified according to the hardware configuration and servo calibration requirements.
 
 Future updates will include a complete Arduino project structure with improved documentation and circuit diagrams.
+
+The code can be directly copied into the Arduino IDE, saved as an `.ino` sketch, and modified according to the hardware configuration and servo calibration requirements.
+
+Future updates will include a complete Arduino project structure with improved documentation and circuit diagrams.
