@@ -22,7 +22,9 @@ More than **120+ hours** were invested in designing, fabricating, programming, t
 
 * Arduino UNO R3
 * Geeetech Voice Recognition Module
-* Servo Motors
-* External Power Supply
-* Custom Mechanical Structure
-* Wiring and Electronics Components
+* High-Torque Servo Motors
+* Jumper Wires (Male-to-Male, Female-to-Female, Male-to-Female)
+* External Battery Power Supply (4V-9V)
+* Buck Voltage Regulator Module
+* Custom Handmade Aluminium-Based Exoskeleton Structure
+* Mechanical Linkages and Mounting Assemblies
