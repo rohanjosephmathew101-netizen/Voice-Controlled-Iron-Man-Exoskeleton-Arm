@@ -1,0 +1,94 @@
+//BY:ROHAN JOSEPH MATHEW-(Ammature-TOP G)(11/10/2022)
+
+//MODIFIED AT (5/8/2023)
+
+//servo library-------------
+#include <Servo.h>
+byte com = 0;
+
+//DECLARED THE PINS WHERE THE SERVO IS CONNECTED
+int servoPin1 = 3;
+int servoPin2 = 5;
+
+
+//servo object--------------
+Servo Servo1;
+Servo Servo2;
+
+
+//BEGINS-------------------------
+void setup() {
+
+Serial.begin(9600);//The Bout rate of communication-----
+
+Serial.write(0xAA);
+
+Serial.write(0x37);//PUTTING THE BOARD IN COMPACT MODE
+
+delay(1000);
+
+Serial.write(0xAA);
+
+Serial.write(0x21);//THE COOMANDS ARE IMPORTED TO THE VM
+
+//pin where the servo is attached
+Servo1.attach(servoPin1);
+Servo2.attach(servoPin2);
+
+
+//initial rotation(servo)from 0 degree---------
+//NOTE 0 DEGREE MEANS THE REGION WHERE THE ARMS OF THE SERVOS ARE PARALLEL TO EARTH!
+Servo1.write(0);
+Servo2.write(45);
+
+}
+
+void loop() {
+
+while(Serial.available()) {
+
+com = Serial.read();
+
+switch(com) {
+
+//voice recogniyion module commands------
+//1]ENGAGE COMMAND!
+case 0x11://controlling servo with ENGAGE COMMAND.OPEN UP!
+
+Servo1.write(75);
+
+
+
+break;
+//----------------------------------------------------------------------------
+//2]SHOOT COMMAND!
+case 0x12: //controlling 12V Dc Motor.(shooting)
+Servo2.write(75);
+
+
+break;
+//----------------------------------------------------------------------------
+//3]STOP COMMAND!
+case 0x13://STOP THE ROTATION OF THE MOTOR TO HAULT!
+Servo1.write(75);
+
+break
+//----------------------------------------------------------------------------
+//4]CLOSE COMMAND!
+;case 0x14://CLOSING THE SERVO TO THE INITIAL POSITION
+Servo1.write(0);
+
+
+
+break;
+//----------------------------------------------------------------------------
+//5]ENGAGE THE LAZER FOR EASY KILL :0
+case 0x15:
+
+
+
+break;
+
+}
+}
+}
