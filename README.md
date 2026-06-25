@@ -28,3 +28,11 @@ More than **120+ hours** were invested in designing, fabricating, programming, t
 * Buck Voltage Regulator Module
 * Custom Handmade Aluminium-Based Exoskeleton Structure
 * Mechanical Linkages and Mounting Assemblies
+
+## Source Code
+
+The embedded software for this project is provided in text format.
+
+The code can be directly copied into the Arduino IDE, saved as an `.ino` sketch, and modified according to the hardware configuration and servo calibration requirements.
+
+Future updates will include a complete Arduino project structure with improved documentation and circuit diagrams.
