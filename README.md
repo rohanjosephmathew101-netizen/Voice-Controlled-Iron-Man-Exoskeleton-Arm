@@ -58,18 +58,38 @@ Future updates will include a complete Arduino project structure with improved d
 
 ## Working Principle
 
-## Voice Commands Implemented
-
 ## Project Images
 
-## Demonstration Video
+### Side View
+![Side View](side_view.jpg)
 
-## Hardware Wiring Diagram
+## Demonstration
+
+![Demo](exoskeleton_demo.gif)
+
+Full demonstration video: exoskeleton_demo.mp4
+
+## Hardware Connections
+
+![Hardware Connections](hardware_connections.jpg)
+
+Additional documentation:
+- Physical_Hardware_Arrangement.pdf
 
 ## Source Code
 
-## Challenges Faced
-
-## Future Improvements
+The source code can be directly copied into the Arduino IDE and modified according to the hardware configuration.
 
 ## Repository Structure
+
+```text
+Voice-Controlled-Iron-Man-Exoskeleton-Arm/
+│
+├── README.md
+├── LICENSE
+├── iron_man_exoskeleton_controller.ino
+├── exoskeleton_demo.gif
+├── exoskeleton_demo.mp4
+├── side_view.jpg
+├── hardware_connections.jpg
+└── physical_hardware_arrangement.pdf
