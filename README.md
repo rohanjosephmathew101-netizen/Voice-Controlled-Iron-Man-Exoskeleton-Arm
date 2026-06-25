@@ -43,7 +43,7 @@ The code can be directly copied into the Arduino IDE, saved as an `.ino` sketch,
 
 The following hand-drawn wiring diagram illustrates the complete hardware interconnections used in the project, including component interfaces, power connections, and serial communication links.
 
-![Wiring Diagram](hardware_connection.mp4)
+![Wiring Diagram](hardware_connections.jpg)
 > Note: The diagram was manually created during the hardware development phase and documents the actual connections used in the prototype.
 
 Future updates will include a complete Arduino project structure with improved documentation and circuit diagrams.
