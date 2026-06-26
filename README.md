@@ -48,3 +48,22 @@ The following hand-drawn wiring diagram illustrates the complete hardware interc
 
 Future updates will include a complete Arduino project structure with improved documentation and circuit diagrams.
 
+## Hardware Components
+
+The following image summarizes the major hardware components, actuators, and fabrication materials used in the development of the exoskeleton system.
+
+![Hardware Components](hardware_components_overview.jpg)
+
+### Major Components Used
+
+- Arduino UNO R3
+- Geeetech Voice Recognition Module
+- High Torque Servo Motor
+- 9g Servo Motor
+- 3V DC Motor
+- External Power Supply
+- Buck Voltage Regulator
+- Jumper Wires
+- Custom Handmade Aluminium Exoskeleton Structure
+- Custom Steel Retraction Mechanism
+
