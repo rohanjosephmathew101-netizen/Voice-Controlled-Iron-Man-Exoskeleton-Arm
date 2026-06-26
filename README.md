@@ -52,7 +52,7 @@ Future updates will include a complete Arduino project structure with improved d
 
 The following image summarizes the major hardware components, actuators, and fabrication materials used in the development of the exoskeleton system.
 
-![Hardware Components](hardware_components_overview.jpg)
+![Hardware Components](hardware_components_overview.pdf)
 
 ### Major Components Used
 
