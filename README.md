@@ -16,6 +16,14 @@ The image below shows the complete handmade wearable exoskeleton prototype devel
 
 ![Complete Exoskeleton Assembly](side_view.jpg)
 
+## Demonstration
+
+The demonstration below showcases the voice-controlled exoskeleton arm in operation. The system receives predefined voice commands through the Geeetech Voice Recognition Module and translates them into real-time servo-actuated movements, enabling hands-free control of the wearable mechanism.
+
+![Exoskeleton Demonstration](exoskeleton_demo.gif)
+
+---
+
 ## Key Features
 
 * Voice-controlled actuation
