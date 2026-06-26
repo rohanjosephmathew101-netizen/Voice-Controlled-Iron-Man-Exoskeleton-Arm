@@ -34,6 +34,20 @@ The demonstration below showcases the voice-controlled exoskeleton arm in operat
 * Custom handmade mechanical structure
 * Hands-free operation through voice recognition
 
+## Supported Voice Commands
+
+The exoskeleton arm responds to predefined voice commands stored within the Geeetech Voice Recognition Module.
+
+| Voice Command | Function |
+|---------------|----------|
+| **ENGAGE** | Deploys and activates the exoskeleton arm mechanism. |
+| **SHOOT** | Activates the projectile launching mechanism. |
+| **STOP** | Stops and holds the current actuator state. |
+| **CLOSE** | Retracts the exoskeleton arm to its initial position. |
+| **LASER** | Reserved for future laser module integration. |
+
+The voice commands are processed by the Geeetech Voice Recognition Module and translated into real-time servo-driven actions by the Arduino UNO.
+
 ## Hardware Used
 
 * Arduino UNO R3
