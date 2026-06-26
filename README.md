@@ -8,6 +8,14 @@ The project involved complete mechanical fabrication, electronics integration, e
 
 More than **120+ hours** were invested in designing, fabricating, programming, testing, and refining the system.
 
+## Project Images
+
+### Complete Exoskeleton Assembly
+
+The image below shows the complete handmade wearable exoskeleton prototype developed for this project.
+
+![Complete Exoskeleton Assembly](side_view.jpg)
+
 ## Key Features
 
 * Voice-controlled actuation
